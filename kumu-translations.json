@@ -1,0 +1,194 @@
+{
+    "en": {
+        "langage": "English",
+
+        "dashboard": {
+            "nav": {
+                "help": "HELP",
+                "explore": "EXPLORE",
+                "settings": "SETTINGS",
+                "account": {
+                    "dashboard": {
+                        "options": ["Projects", "Organizations"],
+                    },
+
+                    "settings": {
+                        "options": ["Update profile", "Update billing info", "Update password", "Account settings"]
+                    },
+
+                    "logout": "Logout"
+                }
+            },
+
+            "projects": {
+                "title": "Projects",
+                "controls": {
+                    "filter": {
+                        "options": ["All Projects", "My Projects", "{{project owners}}"]
+                    },
+                    "sort": {
+                        "placeholder": "Sort",
+                        "options": ["Name", "Newest", "Oldest", "Recently updated", "Least recently updated"]
+                    }
+                },
+                "createNew": "NEW PROJECT",
+                "project": {
+                    "public": "Public",
+                    "private": "Private",
+
+                    "updated1Minute": "UPDATED {{count}} MINUTE AGO",
+                    "updatedMinutes": "UPDATED {{count}} MINUTES AGO",
+                    "updated1Hour": "UPDATED {{count}} HOUR AGO",
+                    "updatedHours": "UPDATED {{count}} HOURS AGO",
+                    "updated1Month": "UPDATED {{count}} MONTH AGO",
+                    "updatedMonths": "UPDATED {{count}} MONTHS AGO",
+                    "updated1Year": "UPDATED {{count}} YEAR AGO",
+                    "updatedYears": "UPDATED {{count}} YEARS AGO",
+
+                    "openProject": "OPEN PROJECT"
+                }
+            },
+
+            "organizations": {
+                "title": "Organizations",
+                "createNew": "NEW ORGANIZATION",
+
+                "organization": {
+                    "1member": "{{count}} MEMBER",
+                    "members": "{{count}} MEMBERS",
+                    "plusMoreMembers": "MORE",
+                    "settings": "SETTINGS"
+                }
+            },
+
+            "typeToFilter": "Type to filter",
+
+            "zeroToKumu": {
+                "title": "Zero to Kumuin 3 simple steps:",
+
+                "step1": {
+                    "title": "Step 1. Explore what's possible",
+                    "description": "Find out how others have used Kumu by exploring existing public projects.",
+                    "options": ["Hewlett Foundation's systems map of the US Democracy", "Civic Canopy's stakeholder and project network", "Kumu's own data visualization of the Celebrity Ice Bucket Challenge"]
+                },
+
+                "step2": {
+                    "title": "Step 2. Learn the essentials",
+                    "description": "At docs.kumu.io you'll find a step-by-step guide to getting started with Kumu, along with advanced guides to all the great features available within Kumu.",
+                    "callToAction": "READ THE DOCS"
+                },
+
+                "step3": {
+                    "title": "Step 3. Experiment within a free, public project",
+                    "description": "The best way to learn is by getting your hands dirty. Create a sandbox project, hack away on it, and then delete it when you're done!",
+                    "callToAction": "CREATE A SANDBOX PROJECT"
+                },
+
+                "questions": {
+                    "title": "Got questions?",
+                    "description": "Send an email to support@kumu.io or reach out to us on Slack."
+                }
+            }
+        },
+
+        "newProject": {
+            "title": "New project",
+
+            "account": {
+                "label": "Account",
+                "options": ["{{username}}", {"label": "Organizations", "options": "{{organizations}}"}],
+                "helpText": "As an Organization owner, you can also create projects on behalf of the Organization."
+            },
+
+            "projectName": {
+                "label": "Project name",
+                "placeholder": "Enter name",
+                "helpText": "The project name defines the project's URL, so try to keep it short and memorable."
+            },
+
+            "projectDescription": {
+                "label": "Project description",
+                "placeholder": "Add description (optional)",
+                "helpText": ""
+            },
+
+            "privacy": {
+                "public": {
+                    "label": "Public",
+                    "helpText": "Anyone can see this project. You choose who can contribute."
+                },
+                "private": {
+                    "label": "Private",
+                    "helpText": "You choose who can see and contribute to this project."
+                }
+            },
+
+            "createProject": "Create project"
+        },
+
+        "newMap": {
+            "firstMap": {
+                "title": "Welcome to Kumu",
+                "subtitle": "Let's create your first map",
+                "importBlueprint": "Or import JSON blueprint"
+            },
+
+            "notFirstMap": {
+                "title": "Create a new map",
+                "subtitle": "What type of map would you like to create?"
+            },
+
+            "templates": {
+                "system": {
+                    "label": "SYSTEM",
+                    "description": "Systems maps help you understand and engage complex issues by visualizing the underlying webs of cause and effect. Watch our systems intro video to learn more."
+                },
+
+                "stakeholder": {
+                    "label": "STAKEHOLDER",
+                    "description": "Stakeholder maps allow you to explore who's involved and how they're connected in a visually engaging way. Watch our stakeholder intro video to learn more."
+                },
+
+                "sna": {
+                    "label": "SNA",
+                    "description": "Our SNA template is tuned for performance and can help you identify key influencers, power structures, funding flows and more. You won't have access to all the decorations in the other templates, but you'll be able to support much larger maps. Watch our SNA intro video to learn more."
+                },
+
+                "other": {
+                    "label": "OTHER",
+                    "description": "We have a number of additional templates to build from, apart from the more common Systems, Stakeholder, and SNA templates. Or you can use the custom template to start from scratch!",
+
+                    "chooseOtherTemplate": {
+                        "value": "Custom",
+                        "options": ["Custom", "Causal loop", "Stock and flow"],
+                        "description": "Our custom template is for advanced users who want to push the limits of Kumu and don't need much hand-holding. If \"code\" is a four-letter word to you, you should probably stick to one of our standard templates. Watch our Custom intro video to learn more."
+                    },
+
+                    "elementPosition": {
+                        "label": "How do you want elements to be positioned?",
+                        "pinned": {"label": "I'll manually position my elements (pinned)"},
+                        "floating": {"label": "I want elements to be positioned automatically (floating)"}
+                    },
+
+                    "connectionDirection": {
+                        "label": "What type of connections should we use by default?",
+                        "undirected": {"label": "— Default to undirected connections"},
+                        "directed": {"label": "→ Default to directed connections"},
+                        "mutual": {"label": "↔ Default to mutual connections"}
+                    }
+                },
+
+                "nameMap": {
+                    "label": "What should we name this map?",
+                    "placeholder": "Add map name"
+                },
+
+                "createMap": "Create a new map",
+
+                "changeTemplate": "OR SELECT ANOTHER TEMPLATE"
+            },
+
+            "notSure": "Not sure? Watch our two-minute overview."
+        }
+    }
+}
